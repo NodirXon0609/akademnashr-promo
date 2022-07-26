@@ -1,7 +1,6 @@
 /* GLOBAL */
 :root {
   --accent-color: #ff7500;
-
   --text-font: 'Roboto', "Arial", sans-serif;
   --heading-font: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
@@ -143,6 +142,8 @@ body {
   padding: 12px 24px;
   border-radius: 4px;
   font-size: 13px;
+  text-align: center;
+  white-space: nowrap;
   line-height: 15px;
   font-weight: bold;
   background-color: var(--accent-color);
